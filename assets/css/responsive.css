@@ -1,0 +1,21 @@
+
+
+    @media  screen and (max-width: 600px) {
+        
+    #anim {
+       
+        position: absolute;
+        top: 95%;
+        font-size: 70px;
+        text-align: center;
+    }
+    
+#footer{
+  
+    height: 200px ;
+    margin: 0px;
+    margin-left: 10px;
+
+}
+
+    }

@@ -1,0 +1,401 @@
+body{
+    background-image: url(../image/2.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 40px;
+
+}
+
+#policenav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#linkedin{
+    height: 35px;
+    width: 35px;
+}
+
+/* animation  */
+
+@keyframes tipsy {
+    0 {
+      transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    }
+  }
+  
+  #anim {
+    color: #ffffff;
+    text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  #anim:before,
+  #anim:after {
+    content: '';
+    padding: .8em .3em;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    top: 50%;
+    display: block;
+    border: 10px solid #bdbdbb;
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    animation: 10s infinite alternate ease-in-out tipsy;
+  }
+  
+  #anim:before {
+    border-color: #bdbdbb #bdbdbb;
+    z-index: -1;
+  }
+  
+  #anim:after {
+    border-color:  #bdbdbb #bdbdbb;
+    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+  }
+
+
+  /* text de presentation */
+  #presentation{
+    border-radius: 18px;
+    background: #fee7d8;
+    box-shadow:  -10px -10px 28px #3e5462, 
+                  10px 10px 28px #608499; 
+    padding: 10px;
+    margin-top: 100px;
+    z-index: 100;
+    opacity: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    ;
+}
+#devenir{
+    
+    margin-top: 300px;
+    justify-content: center;
+    font-size: 40px;
+    color: #fee7d8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:   -1px -1px 0 #000000,  
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+     1px 1px 0 #000000;color:#fff;
+
+    
+}
+
+/* formation  */
+#formation{
+    margin-top: 150px;
+    justify-content: center;
+}
+
+#blocform{
+    /* background-color: #91a8d1; */
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+    height: 200px ;
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* animation compétences */
+#SkillBox {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;
+    height: auto;
+    margin: 250px auto;
+    margin-top: 130px;
+    background-color: #fee7d8;
+    padding: 10px;
+    border-radius:20px;
+    text-align: center;
+}
+
+#SkillBox img {
+    width: 20%;
+    height: 10%;
+    margin: auto 35%;
+    padding: 10px;
+}
+.SkillBar {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    background: rgba(17, 17, 17, .3);
+    margin: 20px auto;
+}
+#Skill-HTML {
+    width: 50%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 50px;
+    position: absolute;
+    background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 100%}
+}@-moz-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+#Skill-CSS {
+    animation: Animate-CSS 5s;
+    -webkit-animation: Animate-CSS 5s;
+    -moz-animation: Animate-CSS 5s;
+    -o-animation: Animate-CSS 5s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-CSS {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+
+#Skill-bootstrap {
+    animation: Animate-bootstrap 6s;
+    -webkit-animation: Animate-bootstrap 6s;
+    -moz-animation: Animate-bootstrap 6s;
+    -o-animation: Animate-bootstrap 6s;
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    background-color: purple;
+}
+@keyframes Animate-bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-webkit-keyframes Animate-bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-moz-keyframes Animate-bootstrap{
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}@-o-keyframes Animate-bootstrap {
+    from {
+    width: 10px;
+}
+to {
+    width: 30%}
+}
+#Skill-shopify {
+    animation: Animate-shopify 6s;
+    -webkit-animation: Animate-shopify 6s;
+    -moz-animation: Animate-shopify 6s;
+    -o-animation: Animate-shopify 6s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: green;
+}
+@keyframes Animate-shopify {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-shopify {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-shopify{
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-shopify {
+    from {
+    width: 50px;
+}
+to {
+    width: 50%}
+}
+
+#Skill-adobe {
+    animation: Animate-adobe 4s;
+    -webkit-animation: Animate-adobe 4s;
+    -moz-animation: Animate-adobe 4s;
+    -o-animation: Animate-adobe 4s;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    background-color: yellow;
+}
+@keyframes Animate-adobe {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-webkit-keyframes Animate-adobe {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-moz-keyframes Animate-adobe{
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-o-keyframes Animate-adobe {
+    from {
+    width: 20px;
+}
+to {
+    width: 20%}
+}
+
+/* #Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 65%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 65%}
+} */
+
+
+/* experiences */
+#blocform2{
+    background-color: #fee7d8;
+    border-radius: 15px;
+    margin: auto;
+    height: 100px ;
+    text-align: center;
+}
+
+/* centre d'interets */
+#centredin{
+    margin-top: 150px;
+    padding: 80px;
+}
+ 
+/* contact */
+#contact{
+    margin-top: 140px;
+    padding: 10px;
+} 
+
+#icons{
+    font-size: large;
+}
+#buton{
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+#footer{
+        background-color: #91a8d1;
+        border-radius: 15px;
+        margin: 80px;
+        height: 200px ;
+        text-align: center;
+        margin-left: 190px;
+}
