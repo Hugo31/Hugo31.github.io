@@ -1,5 +1,5 @@
 body{
-    background-image: url(../image/2.jpg);
+    background-image: url(../image/canvah.png);
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,9 +40,10 @@ h2{
     font-weight: bold;
     letter-spacing: 1px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    
   }
   
   #anim:before,
@@ -113,6 +114,9 @@ h2{
     height: 200px ;
     text-align: center;
 }
+#blocform:hover{
+    font-size: 23px;
+}
 
 .date {
     text-align: center;
@@ -128,7 +132,7 @@ h2{
     height: auto;
     margin: 250px auto;
     margin-top: 130px;
-    background-color: #fee7d8;
+    background-color: #d9d9d9;
     padding: 10px;
     border-radius:20px;
     text-align: center;
@@ -226,7 +230,7 @@ to {
     width: 30%;
     height: 50px;
     position: absolute;
-    background-color: purple;
+    background-color: #dde7f4;
 }
 @keyframes Animate-bootstrap {
     from {
@@ -261,7 +265,7 @@ to {
     width: 50%;
     height: 50px;
     position: absolute;
-    background-color: green;
+    background-color: #c2b280;
 }
 @keyframes Animate-shopify {
     from {
@@ -297,7 +301,7 @@ to {
     width: 20%;
     height: 50px;
     position: absolute;
-    background-color: yellow;
+    background-color: #f7db70;
 }
 @keyframes Animate-adobe {
     from {
@@ -367,7 +371,8 @@ to {
     background-color: #fee7d8;
     border-radius: 15px;
     margin: auto;
-    height: 100px ;
+    height: 130px ;
+    width: 100px;
     text-align: center;
 }
 
@@ -392,10 +397,17 @@ to {
 }
 
 #footer{
-        background-color: #91a8d1;
+        background-color: #d9d9d9;
         border-radius: 15px;
         margin: 80px;
-        height: 200px ;
+        height: 220px ;
+        width:190px ;
         text-align: center;
-        margin-left: 190px;
+        margin-left: 150px;
 }
+#footer:hover {
+font-size: 20px ;
+}
+
+
+
