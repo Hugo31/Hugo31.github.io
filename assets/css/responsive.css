@@ -3,9 +3,8 @@
     @media  screen and (max-width: 600px) {
         
     #anim {
-       
-        position: absolute;
-        top: 90%;
+    
+        margin-top: 100%;
         font-size: 70px;
         text-align: center;
     }
@@ -13,9 +12,16 @@
     .footer{
         background-color: ;
         border-radius: 15px;
-     margin-left: 60px;
+        margin-left: 60px;
        
        
+}
+#devenir{
+    
+    margin-top: 350px;
+ 
+
+    
 }
 
 .blocform2{
