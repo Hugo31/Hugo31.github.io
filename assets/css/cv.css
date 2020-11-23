@@ -142,7 +142,9 @@ h2{
 }
 
 /* animation compétences */
-#SkillBox {
+
+
+.SkillBox {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 95%;
@@ -153,6 +155,7 @@ h2{
     padding: 10px;
     border-radius:20px;
     text-align: center;
+    visibility: visible;
 }
 
 #SkillBox img {
@@ -168,8 +171,9 @@ h2{
     background: rgba(17, 17, 17, .3);
     margin: 20px auto;
 }
+
 #Skill-HTML {
-    width: 50%;
+    width: 60%;
     animation: Animate-HTML 4s;
     -webkit-animation: Animate-HTML 4s;
     -moz-animation: Animate-HTML 4s;
@@ -183,7 +187,7 @@ h2{
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 60%}
 }@-webkit-keyframes Animate-HTML {
     from {
     width: 10px;
@@ -195,20 +199,20 @@ to {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 60%}
 }@-o-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 50%}
+    width: 60%}
 }
 #Skill-CSS {
     animation: Animate-CSS 5s;
     -webkit-animation: Animate-CSS 5s;
     -moz-animation: Animate-CSS 5s;
     -o-animation: Animate-CSS 5s;
-    width: 30%;
+    width: 50%;
     height: 50px;
     position: absolute;
     background-color: #55a69f;
@@ -218,26 +222,62 @@ to {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 50%}
 }@-webkit-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 50%}
 }@-moz-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 50%}
 }@-o-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 50%}
 }
+
+#Skill-JS {
+    animation: Animate-JS 4s;
+    -webkit-animation: Animate-JS 4s;
+    -moz-animation: Animate-JS 4s;
+    -o-animation: Animate-JS 4s;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    background-color: #c44e45;
+}
+@keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-webkit-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-moz-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+}@-o-keyframes Animate-JS {
+    from {
+    width: 10px;
+}
+to {
+    width: 20%}
+} 
 
 #Skill-bootstrap {
     animation: Animate-bootstrap 6s;
@@ -346,41 +386,7 @@ to {
     width: 20%}
 }
 
-/* #Skill-JS {
-    animation: Animate-JS 4s;
-    -webkit-animation: Animate-JS 4s;
-    -moz-animation: Animate-JS 4s;
-    -o-animation: Animate-JS 4s;
-    width: 65%;
-    height: 50px;
-    position: absolute;
-    background-color: #c44e45;
-}
-@keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-webkit-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-moz-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-}@-o-keyframes Animate-JS {
-    from {
-    width: 10px;
-}
-to {
-    width: 65%}
-} */
+ 
 
 
 /* experiences */
