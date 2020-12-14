@@ -350,6 +350,42 @@ to {
     width: 50%}
 }
 
+#Skill-wordpress {
+    animation: Animate-wordpress 6s;
+    -webkit-animation: Animate-wordpress 6s;
+    -moz-animation: Animate-wordpress 6s;
+    -o-animation: Animate-wordpress 6s;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #8084c2;
+}
+@keyframes Animate-wordpress {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-wordpress {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-wordpress{
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-wordpress {
+    from {
+    width: 50px;
+}
+to {
+    width: 50%}
+}
+
 #Skill-adobe {
     animation: Animate-adobe 4s;
     -webkit-animation: Animate-adobe 4s;
